@@ -23,7 +23,7 @@ def execute_python(code, user_inputs=None):
         return str(e)
     finally:
         sys.stdout = original_stdout
-        sys.stdin = original_stdin  # Reset stdin to the default
+        sys.stdin = original_stdin  
 
 
 
