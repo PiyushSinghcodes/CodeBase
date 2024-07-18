@@ -6,7 +6,6 @@ def execute_python(code, user_inputs=None):
     original_stdout = sys.stdout
     original_stdin = sys.stdin
     
-    # Redirect stdout to capture output
     sys.stdout = io.StringIO()
     
     if user_inputs is None:
